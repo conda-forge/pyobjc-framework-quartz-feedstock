@@ -14,14 +14,16 @@ Summary: Wrappers for the Quartz frameworks on Mac OS X
 Current build status
 ====================
 
-Linux: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyobjc-framework-quartz-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyobjc-framework-quartz-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![OSX](https://img.shields.io/travis/conda-forge/pyobjc-framework-quartz-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pyobjc-framework-quartz-feedstock)
+![Linux disabled](https://img.shields.io/badge/linux-disabled-lightgrey.svg)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyobjc-framework-quartz/badges/version.svg)](https://anaconda.org/conda-forge/pyobjc-framework-quartz)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyobjc-framework-quartz/badges/downloads.svg)](https://anaconda.org/conda-forge/pyobjc-framework-quartz)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyobjc--framework--quartz-green.svg)](https://anaconda.org/conda-forge/pyobjc-framework-quartz) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyobjc-framework-quartz.svg)](https://anaconda.org/conda-forge/pyobjc-framework-quartz) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyobjc-framework-quartz.svg)](https://anaconda.org/conda-forge/pyobjc-framework-quartz) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyobjc-framework-quartz.svg)](https://anaconda.org/conda-forge/pyobjc-framework-quartz) |
 
 Installing pyobjc-framework-quartz
 ==================================
