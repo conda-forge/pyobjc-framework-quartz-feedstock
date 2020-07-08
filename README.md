@@ -5,7 +5,7 @@ Home: https://bitbucket.org/ronaldoussoren/pyobjc
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Wrappers for the Quartz frameworks on Mac OS X
 
