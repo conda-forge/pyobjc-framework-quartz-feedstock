@@ -1,13 +1,17 @@
 About pyobjc-framework-quartz
 =============================
 
-Home: https://bitbucket.org/ronaldoussoren/pyobjc
+Home: https://github.com/ronaldoussoren/pyobjc
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyobjc-framework-quartz-feedstock/blob/main/LICENSE.txt)
 
 Summary: Wrappers for the Quartz frameworks on Mac OS X
+
+Development: https://github.com/ronaldoussoren/pyobjc/tree/master/pyobjc-framework-Quartz
+
+Documentation: https://pyobjc.readthedocs.io/en/latest/
 
 Current build status
 ====================
