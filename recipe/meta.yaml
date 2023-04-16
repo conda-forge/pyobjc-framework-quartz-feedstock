@@ -1,5 +1,5 @@
 {% set name = "pyobjc-framework-Quartz" %}
-{% set version = "9.0.1" %}
+{% set version = "9.1" %}
 
 package:
   name: pyobjc-framework-quartz
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7e2e37fc5c01bbdc37c1355d886e6184d1977043d5a05d1d956573fa8503dac3
+  sha256: f6f48990cfb59eb0a3e61cac376b82a6a4f83453040844d97d164ff5086679e9
 
 build:
   number: 0
