@@ -1,11 +1,11 @@
-About pyobjc-framework-quartz
-=============================
+About pyobjc-framework-quartz-feedstock
+=======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyobjc-framework-quartz-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ronaldoussoren/pyobjc
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyobjc-framework-quartz-feedstock/blob/main/LICENSE.txt)
 
 Summary: Wrappers for the Quartz frameworks on Mac OS X
 
