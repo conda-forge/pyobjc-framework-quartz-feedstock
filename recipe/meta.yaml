@@ -1,5 +1,5 @@
 {% set name = "pyobjc-framework-Quartz" %}
-{% set version = "10.0" %}
+{% set version = "10.1" %}
 
 package:
   name: pyobjc-framework-quartz
@@ -8,10 +8,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ff7c938d9c8adff87d577d63e58f9be6e4bc75274384715fa7a20032a1ce8b0e
+  sha256: b7439c0a3be9590d261cd2d340ba8dd24a75877b0be3ebce56e022a19cc05738
 
 build:
-  number: 1
+  number: 0
   script:
     # force pyobjc to use conda-forge's chosen SDK
     - export CFLAGS="${CFLAGS} -isysroot ${SDKROOT:-$CONDA_BUILD_SYSROOT}"
