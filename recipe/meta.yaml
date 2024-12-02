@@ -26,10 +26,11 @@ requirements:
     - pip
     - python
     - setuptools
+    - wheel
   run:
     - python
-    - pyobjc-core
-    - pyobjc-framework-cocoa
+    - pyobjc-core >={{ version }}
+    - pyobjc-framework-cocoa >={{ version }}
 
 test:
   imports:
