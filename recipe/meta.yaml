@@ -1,5 +1,5 @@
 {% set name = "pyobjc-framework-Quartz" %}
-{% set version = "11.0" %}
+{% set version = "11.1" %}
 
 package:
   name: pyobjc-framework-quartz
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name.replace('-', '_').lower() }}/{{ name.replace('-', '_').lower() }}-{{ version }}.tar.gz
-  sha256: 3205bf7795fb9ae34747f701486b3db6dfac71924894d1f372977c4d70c3c619
+  sha256: a57f35ccfc22ad48c87c5932818e583777ff7276605fef6afad0ac0741169f75
 
 build:
   number: 0
@@ -29,8 +29,8 @@ requirements:
     - wheel
   run:
     - python
-    - pyobjc-core >=11.0
-    - pyobjc-framework-cocoa >=11.0
+    - pyobjc-core >=11.1
+    - pyobjc-framework-cocoa >=11.1
 
 test:
   imports:
