@@ -29,8 +29,8 @@ requirements:
     - wheel
   run:
     - python
-    - pyobjc-core >=11.0
-    - pyobjc-framework-cocoa >=11.0
+    - pyobjc-core >=11.1
+    - pyobjc-framework-cocoa >=11.1
 
 test:
   imports:
