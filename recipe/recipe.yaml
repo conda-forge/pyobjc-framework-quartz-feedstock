@@ -9,7 +9,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name.replace('-', '_').lower() }}/${{ name.replace('-', '_') | lower }}-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name | replace('-', '_').lower() }}/${{ name | replace('-', '_') | lower }}-${{ version }}.tar.gz
   sha256: 5bcb9e78d671447e04d89e2e3c39f3135157892243facc5f8468aa333e40d67f
   file_name: ${{ name }}-${{ version }}.tar.gz
 
