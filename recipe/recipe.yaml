@@ -13,12 +13,14 @@ source:
   sha256: 5bcb9e78d671447e04d89e2e3c39f3135157892243facc5f8468aa333e40d67f
 
 build:
-  number: 0
-  skip: (not osx) or match(python, ">=2,<3") or python_impl == 'pypy' or (arm64 and match(python, "<3.9"))
+  number: 1
   script:
     # force pyobjc to use conda-forge's chosen SDK
     - export CFLAGS="${CFLAGS} -isysroot ${SDKROOT:-$CONDA_BUILD_SYSROOT}"
-    - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+    # force ignoring invalid compiler flag (-Wl,-export-dynamic)
+    - export CFLAGS="${CFLAGS} -Wno-unused-command-line-argument"  # [py == 37 or py == 38]
+    - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  skip: true  # [(not osx) or py2k or python_impl == 'pypy' or (arm64 and py < 39)]
 
 requirements:
   build:
@@ -26,6 +28,8 @@ requirements:
       then: 
         - python
         - cross-python_${{ target_platform }}
+        - {{ compiler('c') }}
+        - {{ stdlib("c") }}
   host:
     - pip
     - python
