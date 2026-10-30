@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyobjc-framework-Quartz
-  version: "12.2.2"
+  version: "13.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/pyobjc_framework_quartz-${{ version }}.tar.gz
-  sha256: 810f97b210cfd93704d240860286dfd6df09f9f1c52525fc5c2166723aea3f9e
+  sha256: b9a4942182efbbc7e18e6cb7f5a8faa166dc2fc5e33bece7c7b1355494274add
 
 build:
-  number: 1
+  number: 0
   script:
     # force pyobjc to use conda-forge's chosen SDK
     - export CFLAGS="${CFLAGS} -isysroot ${SDKROOT:-$CONDA_BUILD_SYSROOT}"
