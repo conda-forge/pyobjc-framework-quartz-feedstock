@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyobjc-framework-Quartz
-  version: "13.0"
+  version: "13.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/pyobjc_framework_quartz-${{ version }}.tar.gz
-  sha256: b9a4942182efbbc7e18e6cb7f5a8faa166dc2fc5e33bece7c7b1355494274add
+  sha256: 08ac31f4193e8f433cadc53d4e3681cc39021c5846de75424a317e51d20885b1
 
 build:
   number: 0
